@@ -13,9 +13,10 @@ O app roda totalmente no navegador:
 1. Voce seleciona ou arrasta um arquivo de video.
 2. O navegador carrega o video e mostra um preview.
 3. Voce escolhe o trecho do GIF usando inicio e duracao.
-4. O app captura frames do video em um `canvas`.
-5. A biblioteca `gif.js` transforma esses frames em um arquivo `.gif`.
-6. O GIF gerado aparece na tela e pode ser baixado pelo botao **Baixar**.
+4. Tambem pode ajustar o trecho pela barra visual com inicio e fim.
+5. O app captura frames do video em um `canvas`.
+6. A biblioteca `gif.js` transforma esses frames em um arquivo `.gif`.
+7. O GIF gerado aparece na tela e pode ser baixado pelo botao **Baixar**.
 
 Nenhum video e enviado para servidor. A conversao acontece localmente no seu computador.
 
@@ -23,6 +24,7 @@ Nenhum video e enviado para servidor. A conversao acontece localmente no seu com
 
 - Upload por clique ou arrastar e soltar.
 - Preview do video selecionado.
+- Seletor visual de range para escolher o trecho do GIF.
 - Controle de inicio e duracao do trecho.
 - Ajuste de largura do GIF.
 - Escolha de FPS.
@@ -57,10 +59,11 @@ http://127.0.0.1:4173/
 ## Uso
 
 1. Clique na area de upload ou arraste um video para a tela.
-2. Ajuste **Inicio**, **Duracao**, **Largura**, **FPS** e **Qualidade**.
-3. Clique em **Converter**.
-4. Espere o processamento terminar.
-5. Clique em **Baixar** para salvar o GIF.
+2. Ajuste o trecho pela barra **Trecho do GIF** ou pelos campos **Inicio** e **Duracao**.
+3. Ajuste **Largura**, **FPS** e **Qualidade**.
+4. Clique em **Converter**.
+5. Espere o processamento terminar.
+6. Clique em **Baixar** para salvar o GIF.
 
 ## Observacoes
 
